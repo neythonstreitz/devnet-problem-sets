@@ -22,10 +22,14 @@
 ```
 
 - (**Multiple Choice**) What YANG model is the XML instance referencing?
-	a. UTF-8
-	b. Gigabit Ethernet 2
-	c. ietf-interfaces
-	d. interfaces
+  
+a.  UTF-8
+
+b.  Gigabit Ethernet 2
+
+c.  ietf-interfaces
+
+d.  interfaces
 
 - (**Free Response**) Complete the following Cisco IOS XE command to manually execute the representation defined in the XML instance. *Note: As of November 2023 the DevNet Associate exam does not require labs... challenge yourself!*
 ```ios-xe
@@ -39,15 +43,15 @@ Router(config-if)# no [TODO-4]
 - (**Drag and Drop**) Complete the following tree representation of the above YANG model. *Use the options below to fill in each TODO. Note that not all options are used.*
 ```
 +--rw interfaces
-	+--rw [TODO-1]* [name]
-		+--rw name  					    [TODO-2]
-		+--rw description?  			string
-		+--rw type?  					    identityref
-		+--rw [TODO-3]  				  boolean
-		+--rw ipv4
-			+--rw [TODO-4]
-				+--rw ip  				    string
-				+--rw netmask 			  string
+   +--rw [TODO-1]* [name]
+      +--rw name  			[TODO-2]
+      +--rw description?  		string
+      +--rw type?  			identityref
+      +--rw [TODO-3]  			boolean
+      +--rw ipv4
+	 +--rw [TODO-4]
+            +--rw ip  			string
+            +--rw netmask 		string
 ```
 |**OPTIONS** |||
 |--|--|--|
