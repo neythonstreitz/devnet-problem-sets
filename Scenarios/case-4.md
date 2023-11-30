@@ -20,7 +20,7 @@
 
 - (**Multiple Choice**) Which of the following new approaches does NOT address the issues with his initial attempt?
 
-    a. Streaming data via the MV Camera's built-in MQQT support.
+    a. Streaming data via the MV Camera's built-in MQTT support.
     
     b. Switching to a webhook based approach.
     
@@ -42,7 +42,7 @@
     git pull ...
     ```
     ```bash
-    git push
+    git push ...
     ```
 
 3. To further enhance his integration, Sebastian is offering Infrastructure as Code (IaC) features via Ansible, to allow businesses to easily deploy their cameras. Below is a sample Ansible playbook he's developed.
