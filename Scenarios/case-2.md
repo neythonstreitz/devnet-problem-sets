@@ -23,7 +23,7 @@ print(response.text)
 | request | requests |
 |"/dna/system/api/v1/auth/token"|"/catalyst/api/v1/auth"|
 |"/dna/api/v1/authenticate"|"Basic ZGV2bmV1dxNlcjpDaXNjbzEyMyA="|
-|"{"username":"ezmoto-admin", "password":"Motorcycle123!"|"POST" |
+|{"username":"ezmoto-admin", "password":"Motorcycle123!"}|"POST" |
 |"Basic ezmoto-admin:Motorcycle123!"|"GET"|
 |auth_url|base_url+auth_url|
 
