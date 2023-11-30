@@ -16,9 +16,10 @@
     d. They can generate a JSON Security Token by submitting authentication credentials in the body of an HTTP request.
 
 <br>
+
 3. Leah and Sophia begin testing the API via a **curl** command. Use the following image to answer the questions.
 
-  ![image](https://github.com/neythonstreitz/devnet-problem-sets/assets/144170135/33445c97-5bdc-45b9-86e9-cd73777d8983)
+  	![image](https://github.com/neythonstreitz/devnet-problem-sets/assets/144170135/33445c97-5bdc-45b9-86e9-cd73777d8983)
 
 - (**Multiple Choice**) Which of the following statements are true of their attempt? (Choose two)
 
