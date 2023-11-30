@@ -28,8 +28,8 @@
     d. 429
 
 
-    The correct answer is D, 429. The HTTP status code 429 Too Many Requests occurs when a rate limit has been hit. In this scenario, requesting 50 times per second would
-    far exceed the limit.
+  The correct answer is D, 429. The HTTP status code 429 Too Many Requests occurs when a rate limit has been hit.
+  In this scenario, requesting 50 times per second would far exceed the limit.
 
 - (**Multiple Choice**) Which of the following new approaches does NOT address the issues with his initial attempt?
 
@@ -42,25 +42,23 @@
     d. Using the Dashboard APIs pagination support to ensure only a limited, specific amount of information is returned.
 
 
-    The correct answer is D. While pagination might limit the amount of information returned initially in a request, it does not actually solve the problem of too many requests.
-    
+  The correct answer is D.
+  While pagination might limit the amount of information returned initially in a request, it does not actually solve the problem of too many requests.
+  Approaches that actually limit the amount of requests include using MQQT data streaming, implementing a webhook, or using action batches to apply multiple configuration changes at once.     
 
 ---
 2. Sebastian is using Git to track his integration's source code. He wants to develop a new feature that allows businesses to automatically alert store associates when the cameras detect a possible event.
 - (**Drag and Drop**) Order the following pseudo-code commands to represent Sebastian's most likely workflow while developing his application.
 
     ```bash
-    git commit ...
-    ```
-    ```bash
-    git add ...
-    ```
-    ```bash
     git pull ...
+    git add ...    
+    git commit ...
+    git push ...
     ```
-    ```bash
-    git push
-    ```
+
+The typical workflow includes pulling the current code from a repository, tracking files and/or adding changes to the staging area, committing changes to the repository, and pushing the updates to a remote repository.
+
 
 3. To further enhance his integration, Sebastian is offering Infrastructure as Code (IaC) features via Ansible, to allow businesses to easily deploy their cameras. Below is a sample Ansible playbook he's developed.
 ```yaml
@@ -107,3 +105,10 @@
 	e. The playbook updates the meraki_api_key and meraki_base_url across all the MV Cameras in the environment.
 
 	f. MQTT data streaming is enabled across all cameras.
+
+
+	The correct answer is A, D, and F.
+	The reason B is incorrect is because Ansible playbooks work in an ATOMIC fashion.
+	This means that failure to make a configuration change reverts all changes and stops further changes from continuing on.
+	Futhermore, the reason e is incorrect is because the meraki_ keys are parameters. They are necessary for the Ansible playbook to apply changes,
+	but are not UPDATING the keys across the environment.
