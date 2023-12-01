@@ -5,6 +5,8 @@
 1. (**FREE RESPONSE**) In a few sentences, describe some benefits of 	Infrastructure as Code.
 
 
+<br><br>
+
 2. Below is an example XML script. Answer the following questions by referring to the code.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -31,6 +33,9 @@ c.  ietf-interfaces
 
 d.  interfaces
 
+
+<br>
+
 - (**Free Response**) Complete the following Cisco IOS XE command to manually execute the representation defined in the XML instance. *Note: As of November 2023 the DevNet Associate exam does not require labs... challenge yourself!*
 ```ios-xe
 Router> enable
@@ -40,6 +45,9 @@ Router(config-if)# description "Wide Area Network"
 Router(config-if)# ip address [TODO-2] [TODO-3]
 Router(config-if)# no [TODO-4]
 ```
+
+<br><br>
+
 - (**Drag and Drop**) Complete the following tree representation of the above YANG model. *Use the options below to fill in each TODO. Note that not all options are used.*
 ```
 +--rw interfaces
@@ -58,6 +66,8 @@ Router(config-if)# no [TODO-4]
 | ietf-interfaces | interface  | integer |
 | string | Wide Area Network | enabled |
 | UTF-8 | True | address |
+
+<br><br>
 
 - (**Drag and Drop**) Translate the XML script to its corresponding JSON equivalent. *Use the options below to fill in each TODO. Note that not all options are used.*
 ```yaml
