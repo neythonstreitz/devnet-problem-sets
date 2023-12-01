@@ -27,6 +27,8 @@ print(response.text)
 |"Basic ezmoto-admin:Motorcycle123!"|"GET"|
 |auth_url|base_url+auth_url|
 
+<br><br>
+
 - (**Multiple Choice**) Karis was successful in authenticating to the Catalyst Center instance and the API returned an authorization token. What HTTP status code is most likely to be in the response header?
   
   a. 200 
@@ -37,21 +39,26 @@ print(response.text)
   
   d. 400
 
+<br><br>
+
 - (**Free Response**) It is often recommended to return an HTTP Status Code 404 when an unauthorized user attempts to query a private resource. In a few sentences,
 describe the 404 response code and why developers recommend this.
+
 
 <br><br>
 
 2. (**Multiple Choice**) What Catalyst Center API should Karis use to now retrieve the necessary device inventory information?
   
-  a. Intent API
+	  a. Intent API
+	  
+	  b. Integration API
+	  
+	  c. Multivendor SDK
+	  
+	  d. Network API
   
-  b. Integration API
-  
-  c. Multivendor SDK
-  
-  d. Network API
-<br>
+<br><br>
+
 - (**Drag and Drop**) Complete the Python script to retrieve a list of network devices as JSON. 
 ```python
 import requests
@@ -80,4 +87,9 @@ print(response.text)
 |"application/xml"|"application/json"|
 |"devices/get-devices"|"GET"|
 
-- (**Free Response**) In a few sentences, describe some differences between Catalyst Center's Intent API and Integration API. *Hint: What is an example use case for each API?* 
+<br><br>
+
+- (**Free Response**) In a few sentences, describe some differences between Catalyst Center's Intent API and Integration API. *Hint: What is an example use case for each API?*
+
+<br><br>
+
