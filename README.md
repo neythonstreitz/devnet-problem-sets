@@ -7,7 +7,7 @@ Any and all recommendations/feedback is welcome!
 
 ## How to Use:
 Feel free to use the practice problems in whatever way you feel helps.
-However, the questions are designed as specific "customer scenarios" where you're tasked with using your network automation/progammability skills to help a ficitonal client.
+However, the questions are designed as specific "customer scenarios" where you're tasked with using your network automation/progammability skills to help a fictional client.
 
 
 Included in each Scenario are multiple choice, drag and drop, and free response questions.
