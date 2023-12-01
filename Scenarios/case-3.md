@@ -3,6 +3,7 @@
 ### Since their team is quite small, they've decided to leverage the Meraki SDK to create new networks programmatically.
 
 1. (**Free Response**) In a few sentences, describe the benefits of using an SDK to interact with an API.
+
 <br><br>
 
 2.  (**Multiple Choice**) Leah and Sophia first need to authenticate to their Meraki environment. Where should they go to retrieve their authentication token.
@@ -15,7 +16,7 @@
     
     d. They can generate a JSON Security Token by submitting authentication credentials in the body of an HTTP request.
 
-<br>
+<br><br>
 
 3. Leah and Sophia begin testing the API via a **curl** command. Use the following image to answer the questions.
 
@@ -31,6 +32,7 @@
     
     d. The response returns the content in XML.
 
+<br><br>
 
 4. (**Drag and Drop**) Order the following code blocks to complete Leah and Sophia's *create-new-network* Python script. 
 *All blocks will be used.*
@@ -62,3 +64,6 @@ X_CISCO_MERAKI_API_KEY = "15dadafskjlhawe234rgknKJhdfd34vm3"
 
 MERAKI = MerakiSdkClient(X_CISCO_MERAKI_API_KEY)
 ```
+
+<br><br>
+
