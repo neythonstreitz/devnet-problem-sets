@@ -2,12 +2,15 @@
 ### Sebastian is developing a new Meraki Marketplace integration called DIPPOMODE. It provides shoplifting and theft detection by leveraging custom computer vision models on Meraki's MV lines of cameras.
 ### By cross-referencing video footage of the checkout lines with customers exiting the store, DIPPOMODE can alert businesses of customers accidentally or deliberately not scanning items at checkout.
 
-1. Sebastian beings by creating a Python script that queries cameras on a time interval via REST API calls. His approach passes all tests when using 2 cameras.
+1. Sebastian beings by creating a Python script that queries all cameras on a 1 second time interval via REST API calls.
+   His approach passes all tests when using 2 cameras, however he knows that the customers he is marketing his integration towards will have many more cameras.
 
 - (**FREE RESPONSE**) In a few sentences, describe the potential drawbacks of his approach when scaling the integration to large customer environments.
 
+<br><br>
 
 - (**Multiple Choice**) What HTTP status code is Sebastian most likely to see when testing the script on an environment with 50 cameras?
+  *Remember, his script will attempt to query 50 cameras EVERY second.*
   
     a. 404
     
@@ -17,6 +20,7 @@
     
     d. 429
 
+<br><br>
 
 - (**Multiple Choice**) Which of the following new approaches does NOT address the issues with his initial attempt?
 
@@ -26,10 +30,11 @@
     
     c. Using the Dashboard APIs action batch support to perform multiple requests in a single transaction.
     
-    d. Using the Dashboard APIs pagination support to ensure only a limited, specific amount of information is returned. 
+    d. Using the Dashboard APIs pagination support to ensure only a limited, specific amount of information is returned per request.
 
+<br><br>
 
-2. Sebastian is using Git to track his integration's source code. He wants to develop a new feature that allows businesses to automatically alert store associates when the cameras detect a possible event.
+2. Sebastian is using Github to track his integration's source code. In the future, Sebastian hopes to hire a team of developers to work together on the integration.
 - (**Drag and Drop**) Order the following pseudo-code commands to represent Sebastian's most likely workflow while developing his application.
 
     ```bash
@@ -44,6 +49,8 @@
     ```bash
     git push ...
     ```
+
+<br><br>
 
 3. To further enhance his integration, Sebastian is offering Infrastructure as Code (IaC) features via Ansible, to allow businesses to easily deploy their cameras. Below is a sample Ansible playbook he's developed.
 ```yaml
@@ -90,3 +97,5 @@
 	e. The playbook updates the meraki_api_key and meraki_base_url across all the MV Cameras in the environment.
 
 	f. MQTT data streaming is enabled across all cameras.
+
+<br><br>
