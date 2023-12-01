@@ -69,12 +69,12 @@ Router(config-if)# no shutdown
 {
   "ietf-interfaces:interface": {
     "name": "GigabitEthernet2",
-    "TODO-2": "Wide Area Network",
+    "description": "Wide Area Network",
     "enabled": "True",
     "ipv4": {
       "address": [
         {
-          "TODO-5": "172.16.0.2",
+          "ip": "172.16.0.2",
           "netmask": "255.255.255.0
         }
       ]
