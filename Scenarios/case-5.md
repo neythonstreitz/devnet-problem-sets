@@ -83,5 +83,5 @@ pprint.pprint(json.loads(RESPONSE.text))
 |"roomId"| "room_id" |
 |"POST"|"GET"|
 |PAYLOAD|DATA|
-|netmiko|os|
+|netmiko|json|
 
